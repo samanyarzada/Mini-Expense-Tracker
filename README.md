@@ -1,16 +1,88 @@
-# React + Vite
+# 💰 Mini Expense Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and user-friendly expense tracker built with **React** and **Vite**.  
+This project helps users keep track of their daily expenses through a clean and intuitive interface.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- ➕ Add new expenses
+- 📝 Manage expense records
+- 📊 View and track your expenses
+- 💵 Enter expense amounts and details
+- 🎨 Clean and responsive user interface
+- ⚡ Fast development and performance with Vite
 
-## React Compiler
+## 🛠️ Technologies
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **React**
+- **Vite**
+- **JavaScript**
+- **CSS**
+- **ESLint**
 
-## Expanding the ESLint configuration
+## 🚀 Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/samanyarzada/Mini-Expense-Tracker.git
+```
+
+### 2. Navigate to the project directory
+
+```bash
+cd Mini-Expense-Tracker
+```
+
+### 3. Install dependencies
+
+```bash
+npm install
+```
+
+### 4. Start the development server
+
+```bash
+npm run dev
+```
+
+The application will be available at the local URL provided by Vite.
+
+## 📁 Project Structure
+
+```text
+Mini-Expense-Tracker/
+├── public/
+├── src/
+├── .gitignore
+├── eslint.config.js
+├── index.html
+├── package.json
+├── package-lock.json
+├── vite.config.js
+└── README.md
+```
+
+## 🎯 Purpose
+
+The goal of this project is to provide a simple way to record and manage personal expenses while practicing modern frontend development with React.
+
+## 🔮 Future Improvements
+
+- Add expense categories
+- Add edit and delete functionality
+- Add expense filtering and search
+- Add monthly expense summaries
+- Add charts and visual reports
+- Add local storage for persistent data
+- Improve mobile responsiveness
+
+## 👨‍💻 Author
+
+Saman Yarzada
+
+GitHub: [@samanyarzada](https://github.com/samanyarzada)
+
+## 📄 License
+
+This project is open source and available for learning and personal use.
